@@ -1,0 +1,121 @@
+*{
+	font-family: roboto;	
+}
+body{
+	background-color: blueviolet;	
+}
+.container {
+	margin: 0 auto;
+	max-width: 75%;
+	padding: 40px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 2px 2px 25px black;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+}
+.Btn {
+	background-color: white;
+	color:blueviolet;
+	border: none;
+	height: 35px;
+	width: 150px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.Questions{
+	font-size: 20px;
+	font-weight: bold;
+}
+.wc{
+ 	text-align: center;
+ 	font-size: 20px;
+ 	color: white;
+ }
+ .result{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: white;
+ 	height: 300px;
+ 	width: 50%;
+ 	border-radius: 15px;
+ 	box-shadow: 2px 2px 25px black;
+ 	display: none;
+
+ }
+.pontuacao{
+	text-align: center;
+	color: darkorange;
+}
+.certos{
+	text-align: center;
+	color: limegreen;
+}
+.errados{
+	text-align: center;
+	color: red;
+}
+.estatisticas{
+	position: relative;
+	top: 40px;	
+}
+.reset {
+	background-color: white;
+	color: blueviolet;
+	border: 1px solid blueviolet;
+	height: 35px;
+	width: 150px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+}
+.userrr{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;	
+}
+.imgvolta{
+	width: 80px;
+	height: 100px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 0;
+}
+.imgvolta:hover{
+	transition: 2s;
+	opacity: 0.7;
+	transform: scale(1.1);	
+}
+footer{
+	background-color: white;
+	height: 50px;
+	width: 70%;
+	box-shadow: 2px 2px 25px black;
+	border-radius: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;	
+}
+footer p{
+	position: relative;
+	top: 10px;	
+}
