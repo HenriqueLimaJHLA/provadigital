@@ -697,6 +697,7 @@ if (check38.checked){
 	errados.textContent = "Você errou "+errospoints+" questões.";
 }
 	btn.innerHTML = "Enviado!";
+	btn.disabled = true;
 
 setTimeout(function(){tudo.style.cssText = 'display: none';result.style.cssText = 'display: block';imgvolta.style.cssText = 'display: none'},5500)
 
