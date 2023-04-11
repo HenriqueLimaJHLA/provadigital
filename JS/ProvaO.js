@@ -274,7 +274,7 @@ function respostas(){
 	points = points
 	errospoints++
 
-}else if (check3.checked){
+}else if (check4.checked){
 	check1.disabled = true;
 	check2.disabled = true;
 	check3.disabled = true;
