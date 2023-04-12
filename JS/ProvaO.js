@@ -238,6 +238,14 @@ function Teste(){
 	document.location.reload(true);	
 	}
 
+	function Sair(){
+	var sair = confirm("Deseja sair desta página?")	
+	
+	if (sair == true){
+	window.location = "../index.html"	
+		}	
+	}
+
 	
 function respostas(){
 
