@@ -242,6 +242,7 @@ function Teste(){
 	var sair = confirm("Deseja sair desta página?")	
 	
 	if (sair == true){
+        localStorage.clear()
 	window.location = "../index.html"	
 		}	
 	}
